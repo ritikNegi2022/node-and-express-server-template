@@ -1,4 +1,3 @@
-Varun Kumar, 10:43
 # Express Server Template
 
 A lightweight, modular, and developer-friendly Node.js and Express server template designed for speed and scalability. This template features an automated route loader and a custom Router wrapper to simplify API development.
