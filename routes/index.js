@@ -1,9 +1,9 @@
 import Router from "../functions/router.js";
 
-const router = new Router("root");
+const handler = new Router("root");
 
-router.get("/", (_, res) =>
-  res.status(200).json({ message: "Server is up and running." }),
-);
+handler.get("/", (_, res) =>
+	res.status(200).json({ message: "Server is up and running." }),
+).post((_, res) => res.status(200).json({ message: "Post method is working" }))
 
-export default router;
+export default handler.build();
