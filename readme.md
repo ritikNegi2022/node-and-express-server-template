@@ -13,6 +13,7 @@ A lightweight, modular, and developer-friendly Node.js and Express server templa
 
 ## 📁 Project Structure
 
+```
 text
 ├── functions/
 │   ├── handlers.js       # Centralized error management
@@ -23,7 +24,7 @@ text
 │   └── index.js          # Root route example
 ├── index.js              # Server entry point
 └── package.json          # Configuration and dependencies
-
+```
 ## 🛠️ Getting Started
 
 ### Prerequisites
